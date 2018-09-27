@@ -1,5 +1,5 @@
-# bitmex-api-php
-BitMex PHP REST API with HTTP Keep-Alive support
+# bitmex-api-php 
+Bitmex api ile bağlantı kurulabilmesi için local php dosyası. index.php olarak kullanarak diğer stratejilerinizi inculude ederek kullanabilirsiniz. Localhost da zamanlanmış görev olarak sıralı işlem yapılabilmektedir.
 
 Get API keys from https://www.bitmex.com/app/apiKeys
 
@@ -17,5 +17,4 @@ HTTP Keep-Alive: BitMex says that "When using HTTP Keep-Alive, request/response 
     var_dump($bitmex->createOrder("Limit","Sell",50000,1000));
     ?>
 
-## Donations
-Your BitCoin donations are highly appreciated at [1N36HHos4qQ76PX1BrmeaJCzWDmggreuNU](https://blockchain.info/address/1N36HHos4qQ76PX1BrmeaJCzWDmggreuNU)
+
